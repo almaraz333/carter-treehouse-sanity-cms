@@ -13,5 +13,10 @@ export default {
       type: 'string',
       title: 'Text',
     },
+    {
+      name: 'cursive',
+      type: 'boolean',
+      title: 'Cursive',
+    },
   ],
 }
