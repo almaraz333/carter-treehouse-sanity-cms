@@ -11,7 +11,7 @@ export default {
     },
     {
       name: 'icon',
-      type: 'image',
+      type: 'string',
       title: 'Icon',
     },
   ],
