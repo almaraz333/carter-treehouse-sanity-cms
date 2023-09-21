@@ -14,5 +14,10 @@ export default {
       type: 'string',
       title: 'Icon',
     },
+    {
+      name: '`title',
+      type: 'string',
+      title: 'Title',
+    },
   ],
 }
