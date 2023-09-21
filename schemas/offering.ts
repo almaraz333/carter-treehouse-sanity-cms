@@ -15,7 +15,7 @@ export default {
       title: 'Icon',
     },
     {
-      name: '`title',
+      name: 'title',
       type: 'string',
       title: 'Title',
     },
