@@ -1,6 +1,6 @@
 export default {
   title: 'Map Marker',
-  name: 'map marker',
+  name: 'mapMarker',
   type: 'document',
   fields: [
     {
