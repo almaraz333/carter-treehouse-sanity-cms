@@ -1,27 +1,36 @@
+import mapMarkerType from './mapMarkerType'
+
 export default {
-  title: 'Map Marker',
-  name: 'mapMarker',
+  title: 'Map Markers',
+  name: 'mapMarkers',
   type: 'document',
   fields: [
     {
-      title: 'Latitude',
-      name: 'latitude',
-      type: 'number',
+      title: 'Markers',
+      name: 'markers',
+      type: 'array',
+      of: [mapMarkerType],
     },
     {
-      name: 'longitude',
-      type: 'number',
-      title: 'Longitude',
-    },
-    {
-      name: 'name',
+      title: 'Title',
+      name: 'title',
       type: 'string',
-      title: 'Name',
     },
     {
-      name: 'description',
-      type: 'text',
       title: 'Description',
+      name: 'description',
+      type: 'array',
+      of: [{type: 'block'}],
     },
   ],
+  initialValue: {
+    markers: [
+      {
+        latitude: 0,
+        longitude: 0,
+        name: 'Map Center',
+        description: 'Map Center',
+      },
+    ],
+  },
 }

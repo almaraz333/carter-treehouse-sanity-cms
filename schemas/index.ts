@@ -1,7 +1,3 @@
-import image from './sectionImage'
-import textBlock from './block'
-import sectionTitle from './sectionTitle'
-import offering from './offering'
-import mapMarker from './mapMarker'
+import dynamicComponent from './dynamicComponent'
 
-export const schemaTypes = [image, textBlock, sectionTitle, offering, mapMarker]
+export const schemaTypes = [dynamicComponent]

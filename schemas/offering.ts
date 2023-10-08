@@ -1,23 +1,20 @@
+import offeringType from './offeringType'
+
 export default {
-  title: 'Offering',
-  name: 'offering',
+  title: 'Offerings',
+  name: 'offerings',
   type: 'document',
   fields: [
     {
-      title: 'Body',
-      name: 'body',
+      title: 'Offerings',
+      name: 'offerings',
       type: 'array',
-      of: [{type: 'block'}],
+      of: [offeringType],
     },
     {
-      name: 'icon',
-      type: 'string',
-      title: 'Icon',
-    },
-    {
+      title: 'Title',
       name: 'title',
       type: 'string',
-      title: 'Title',
     },
   ],
 }
